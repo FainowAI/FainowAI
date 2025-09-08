@@ -1,0 +1,27 @@
+<svg width="1200" height="300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#8B5CF6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#000000;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background gradient -->
+  <rect width="1200" height="300" fill="url(#gradient)"/>
+  
+  <!-- Main text -->
+  <text x="600" y="120" font-family="Arial, sans-serif" font-size="48" font-weight="bold" text-anchor="middle" fill="white">
+    {{ORG_NAME}}
+  </text>
+  
+  <!-- Tagline -->
+  <text x="600" y="160" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="white" opacity="0.9">
+    {{ORG_TAGLINE}}
+  </text>
+  
+  <!-- Decorative elements -->
+  <circle cx="200" cy="80" r="3" fill="white" opacity="0.3"/>
+  <circle cx="1000" cy="220" r="2" fill="white" opacity="0.4"/>
+  <circle cx="150" cy="250" r="2" fill="white" opacity="0.2"/>
+  <circle cx="1050" cy="60" r="3" fill="white" opacity="0.3"/>
+</svg>

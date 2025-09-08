@@ -1,0 +1,18 @@
+name: Update WakaTime
+on:
+  schedule: [{ cron: "15 3 * * 1" }]  # segundas 03:15 {{TIMEZONE_CRON}} approx
+  workflow_dispatch:
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: athul/waka-readme@master
+        with:
+          WAKATIME_API_KEY: ${{ secrets.{{WAKATIME_API_KEY_SECRET_NAME}} }}
+          SHOW_TITLE: "true"
+          TIME_RANGE: last_7_days
+          LANG_COUNT: 6
+          BLOCKS: "░█"
+          CODE_LANG: "true"
+          SHOW_TIME: "true"
+          SHOW_TOTAL: "true"

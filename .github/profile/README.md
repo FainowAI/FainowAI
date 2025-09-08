@@ -1,10 +1,10 @@
-<!-- 
-  README.md principal do repositório FainowAI
-  Substitua os placeholders pelos valores reais da organização
--->
+# {{ORG_NAME}} Profile
+
+<!-- Este README será exibido no perfil da organização no GitHub -->
+<!-- Substitua os placeholders pelos valores reais da sua organização -->
 
 <p align="center">
-  <img src="assets/banner.png" alt="Banner {{ORG_NAME}}" width="100%" />
+  <img src="../assets/banner.png" alt="Banner {{ORG_NAME}}" width="100%" />
 </p>
 
 <h1 align="center">{{ORG_NAME}}</h1>
@@ -64,10 +64,6 @@
   <img src="https://raw.githubusercontent.com/{{ORG_USERNAME_FOR_WIDGETS}}/{{ORG_USERNAME_FOR_WIDGETS}}/output/github-contribution-grid-snake.svg" alt="snake animation"/>
 </p>
 
-### ⏱️ Tempo de código (WakaTime)
-<!--START_SECTION:waka-->
-<!--END_SECTION:waka-->
-
 <!-- Quote dinâmica -->
 <p>
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=default&quoteCategory=programming" alt="dynamic quote"/>
@@ -94,22 +90,3 @@ Badges rápidos (exemplos):
 <p align="center">
   <i>Feito com ❤️ pela equipe {{ORG_NAME}}</i>
 </p>
-
-<!-- 
-  PLACEHOLDERS PARA SUBSTITUIÇÃO:
-  
-  {{ORG_NAME}} — Fainow
-  {{ORG_TAGLINE}} — Fast Applied Artificial Inteligence
-  {{ORG_PITCH}} — Sem enrolação, Fazemos o básico bem feito, adoramos um problema
-  {{PRIMARY_COLOR_HEX}} — #8B5CF6 (roxo)
-  {{ACCENT_COLOR_HEX}} — #000000 (preto)
-  {{WEBSITE_URL}} — https://about.agenciaorchestra.ai/
-  {{EMAIL_CONTATO}} — fainowadm@gmail.com
-  {{LINKEDIN_URL}} — www.linkedin.com/in/antônio-marberger-736a441b6
-  {{TWITTER_URL}} — [URL do Twitter]
-  {{ORG_USERNAME_FOR_WIDGETS}} — usuário org/conta vitrine para widgets
-  {{ORG_GITHUB_HANDLE}} — FainowAI
-  {{FEATURED_REPO_1}} — repositório destacado
-  {{WAKATIME_API_KEY_SECRET_NAME}} — WAKATIME_API_KEY (default)
-  {{TIMEZONE_CRON}} — America/Sao_Paulo (default)
--->
