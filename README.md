@@ -64,6 +64,10 @@
   <img src="https://raw.githubusercontent.com/{{ORG_USERNAME_FOR_WIDGETS}}/{{ORG_USERNAME_FOR_WIDGETS}}/output/github-contribution-grid-snake.svg" alt="snake animation"/>
 </p>
 
+### ⏱️ Tempo de código (WakaTime)
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
+
 <!-- Quote dinâmica -->
 <p>
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=default&quoteCategory=programming" alt="dynamic quote"/>

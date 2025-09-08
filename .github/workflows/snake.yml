@@ -1,32 +1,23 @@
-name: Generate Snake Animation
-
+name: Generate Snake
 on:
-  schedule:
-    # Executa diariamente às 00:00 (horário configurado em TIMEZONE_CRON)
-    - cron: '0 0 * * *'
+  schedule: [{ cron: "0 3 * * *" }]  # diário 03:00 {{TIMEZONE_CRON}} approx
   workflow_dispatch:
-
-permissions:
-  contents: write
-
 jobs:
-  generate-snake:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
-      - name: Generate Snake
-        uses: Platane/snk@v2
-        id: snake-gif
+      - name: Generate snake
+        uses: Platane/snk@v3
         with:
-          github_user_name: ${{ github.repository_owner }}
-          gif_out_path: ./output/github-contribution-grid-snake.gif
-          svg_out_path: ./output/github-contribution-grid-snake.svg
-
-      - name: Push to GitHub
-        uses: EndBug/add-and-commit@v9
+          github_user_name: "{{ORG_USERNAME_FOR_WIDGETS}}"
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+      - name: Push snake to output branch
+        uses: crazy-max/ghaction-github-pages@v4
         with:
-          branch: main
-          message: 'Generate contribution snake'
-          add: './output/github-contribution-grid-snake.*'
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
