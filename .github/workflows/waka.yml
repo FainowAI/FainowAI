@@ -1,0 +1,45 @@
+name: Update WakaTime Stats
+
+on:
+  schedule:
+    # Executa diariamente às 02:00 (horário configurado em TIMEZONE_CRON)
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    name: Update README with WakaTime
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Update README
+        uses: anmol098/waka-readme-stats@master
+        with:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SHOW_OS: "True"
+          SHOW_PROJECTS: "True"
+          SHOW_EDITORS: "True"
+          SHOW_LANGUAGE: "True"
+          SHOW_LINES_OF_CODE: "True"
+          SHOW_PROFILE_VIEWS: "True"
+          SHOW_SHORT_INFO: "True"
+          SHOW_LOC_CHART: "True"
+          SHOW_LANGUAGE_PER_REPO: "True"
+          SHOW_TIMEZONE: "True"
+          SHOW_COMMITS: "True"
+          SHOW_DAYS_OF_WEEK: "True"
+          SHOW_ACTIVITY_GRAPH: "True"
+          SHOW_PROFILE_VIEWS: "True"
+          LOCALE: "pt"
+          COMMIT_BY_ME: "True"
+          SHOW_DAYS_OF_WEEK: "True"
+          SHOW_ACTIVITY_GRAPH: "True"
+          SHOW_PROFILE_VIEWS: "True"
+          LOCALE: "pt"
+          COMMIT_BY_ME: "True"
