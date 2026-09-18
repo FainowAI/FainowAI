@@ -1,115 +1,105 @@
-<!-- 
-  README.md principal do repositório FainowAI
-  Substitua os placeholders pelos valores reais da organização
--->
+<div align="center">
 
-<p align="center">
-  <img src="assets/banner.png" alt="Banner {{ORG_NAME}}" width="100%" />
-</p>
+# FAINOW
 
-<h1 align="center">{{ORG_NAME}}</h1>
-<p align="center"><i>{{ORG_TAGLINE}}</i></p>
+### A operação que roda sem você.
 
-<!-- Headline animada -->
-<p align="center">
-  <a href="https://github.com/{{ORG_GITHUB_HANDLE}}">
-    <img src="https://readme-typing-svg.demolab.com?center=true&vCenter=true&pause=1200&width=900&lines={{ORG_TAGLINE}};Produtos+em+semanas%2C+n%C3%A3o+meses;Seguran%C3%A7a%2C+processo+e+impacto+de+neg%C3%B3cio" alt="typing headline" />
-  </a>
-</p>
+[![Website](https://img.shields.io/badge/site-about.fainow.ai-db5e4d?style=for-the-badge&labelColor=080a0e)](https://about.fainow.ai)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Antônio_Marberger-db5e4d?style=for-the-badge&labelColor=080a0e&logo=linkedin&logoColor=e0e2e8)](https://www.linkedin.com/in/antônio-marberger-736a441b6)
+[![Contato](https://img.shields.io/badge/contato-fainowadm%40gmail.com-db5e4d?style=for-the-badge&labelColor=080a0e)](mailto:fainowadm@gmail.com)
 
-## 🧭 Sobre nós
-{{ORG_PITCH}}
-
-### Nossos pilares
-- 🔒 Segurança e conformidade by design
-- ⚡ Velocidade com qualidade (arquitetura, testes, CI/CD)
-- 📈 Foco em resultado e ROI
-
-## ⭐ Destaques
-<!-- Troque os links pelos repositórios da org -->
-- 🚀 [Repositório Principal](https://github.com/{{ORG_GITHUB_HANDLE}}/main-repo)
-- 🔧 [Ferramentas Internas](https://github.com/{{ORG_GITHUB_HANDLE}}/tools)
-- 📚 [Documentação](https://github.com/{{ORG_GITHUB_HANDLE}}/docs)
-
-## 📊 Métricas & atividade
-<!-- Cards de stats -->
-<p>
-  <img src="https://github-readme-stats.vercel.app/api?username={{ORG_USERNAME_FOR_WIDGETS}}&show_icons=true&theme=transparent" alt="stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username={{ORG_USERNAME_FOR_WIDGETS}}&layout=compact&theme=transparent" alt="top langs" />
-</p>
-
-<!-- Streak (sequência) -->
-<p>
-  <a href="https://git.io/streak-stats">
-    <img src="https://github-readme-streak-stats.herokuapp.com?user={{ORG_USERNAME_FOR_WIDGETS}}&theme=transparent" alt="streak stats"/>
-  </a>
-</p>
-
-<!-- Trophies -->
-<p>
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username={{ORG_USERNAME_FOR_WIDGETS}}&margin-w=8&theme=flat&no-bg=true&no-frame=true" alt="trophies"/>
-  </a>
-</p>
-
-<!-- Activity graph (últimos 31 dias) -->
-<p>
-  <a href="https://github.com/Ashutosh00710/github-readme-activity-graph">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username={{ORG_USERNAME_FOR_WIDGETS}}&custom_title=Atividade%20recente%20({{ORG_NAME}})&radius=6&hide_border=true" alt="activity graph"/>
-  </a>
-</p>
-
-<!-- Snake das contribuições (gerada por workflow) -->
-<p>
-  <img src="https://raw.githubusercontent.com/{{ORG_USERNAME_FOR_WIDGETS}}/{{ORG_USERNAME_FOR_WIDGETS}}/output/github-contribution-grid-snake.svg" alt="snake animation"/>
-</p>
-
-### ⏱️ Tempo de código (WakaTime)
-<!--START_SECTION:waka-->
-<!--END_SECTION:waka-->
-
-<!-- Quote dinâmica -->
-<p>
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=default&quoteCategory=programming" alt="dynamic quote"/>
-</p>
-
-## 🛠️ Tech stack & padrões
-Badges rápidos (exemplos):
-  
-![Stack](https://img.shields.io/badge/stack-Node%20%7C%20Python%20%7C%20Go-{{PRIMARY_COLOR_HEX}}?logo=dependabot)
-![Cloud](https://img.shields.io/badge/cloud-GCP%20%7C%20AWS%20%7C%20Vercel-{{ACCENT_COLOR_HEX}}?logo=cloudflare)
-![CI/CD](https://img.shields.io/badge/ci%2Fcd-GitHub%20Actions-000?logo=githubactions)
-
-## 🤝 Contribuição & comunidade
-- Issue templates, PR templates e Guia de Contribuição nos repositórios.  
-- Agradecimentos aos contribuidores (exemplo para repositórios):  
-  <a href="https://github.com/{{ORG_GITHUB_HANDLE}}/{{FEATURED_REPO_1}}/graphs/contributors">
-    <img src="https://contrib.rocks/image?repo={{ORG_GITHUB_HANDLE}}/{{FEATURED_REPO_1}}" />
-  </a>
-
-## 📬 Contato
-🌐 {{WEBSITE_URL}} · 💼 [LinkedIn]({{LINKEDIN_URL}}) · 🐦 [Twitter]({{TWITTER_URL}}) · ✉️ {{EMAIL_CONTATO}}
+</div>
 
 ---
-<p align="center">
-  <i>Feito com ❤️ pela equipe {{ORG_NAME}}</i>
-</p>
 
-<!-- 
-  PLACEHOLDERS PARA SUBSTITUIÇÃO:
-  
-  {{ORG_NAME}} — Fainow
-  {{ORG_TAGLINE}} — Fast Applied Artificial Inteligence
-  {{ORG_PITCH}} — Sem enrolação, Fazemos o básico bem feito, adoramos um problema
-  {{PRIMARY_COLOR_HEX}} — #8B5CF6 (roxo)
-  {{ACCENT_COLOR_HEX}} — #000000 (preto)
-  {{WEBSITE_URL}} — https://about.agenciaorchestra.ai/
-  {{EMAIL_CONTATO}} — fainowadm@gmail.com
-  {{LINKEDIN_URL}} — www.linkedin.com/in/antônio-marberger-736a441b6
-  {{TWITTER_URL}} — [URL do Twitter]
-  {{ORG_USERNAME_FOR_WIDGETS}} — usuário org/conta vitrine para widgets
-  {{ORG_GITHUB_HANDLE}} — FainowAI
-  {{FEATURED_REPO_1}} — repositório destacado
-  {{WAKATIME_API_KEY_SECRET_NAME}} — WAKATIME_API_KEY (default)
-  {{TIMEZONE_CRON}} — America/Sao_Paulo (default)
--->
+## Laboratório de soluções
+
+Encontramos, desenhamos e implementamos sistemas e agentes de IA que trabalham dentro da operação de PMEs brasileiras — com método, governança e resultado mensurável.
+
+Não vendemos tecnologia. Removemos gargalos. A tecnologia é escolhida pelo problema, não o contrário.
+
+**Tese.** A ineficiência operacional é o principal freio do crescimento das PMEs brasileiras. Enquanto grandes corporações operam com times digitais, a PME ainda opera na base do esforço manual. Toda PME merece operar com a mesma inteligência.
+
+Não somos agência de marketing, fábrica de software ou vendedores de ferramenta.
+
+---
+
+## Escada de ofertas
+
+Quatro degraus, em ordem de upsell.
+
+| Degrau | Oferta | Papel |
+|---|---|---|
+| 01 | **Masterclass Fainow** | Topo de funil — mostro que é possível |
+| 02 | **Treinamento de IA Aplicada** | Capacitação corporativa — ensino seu time a fazer |
+| 03 | **AI Opportunity** | Diagnóstico + construção, fechado por área — faço por você, dentro de uma área |
+| 04 | **AI Advisor** | Entrega full da empresa — faço por você em toda a operação e instalo governança |
+
+### AI Opportunity — o produto central
+
+Diagnóstico, priorização, projeto, construção e otimização num só projeto. Sempre fechado por área — nunca vendido em aberto. Módulos: **Comercial · Marketing · Financeiro · Atendimento.**
+
+`01` Entender → *Current State Map*
+`02` Descobrir → *Opportunity Portfolio*
+`03` Projetar / Validar → *AI Solution Blueprint*
+`04` Implementar → *AI Solutions* — build → enable → deploy → adopt
+`05` Otimização → *Handover + Roadmap*
+
+Cada etapa reduz incerteza antes de aumentar investimento.
+
+---
+
+## Método S.I.S.T.E.M.A.
+
+Sete letras, três movimentos.
+
+- **Diagnosticar** — Sondar, Identificar, Selecionar
+- **Construir** — Traduzir, Executar, Medir
+- **Escalar** — Ampliar
+
+Todo gargalo vira sistema.
+
+---
+
+## Resultados em produção
+
+| Métrica | Valor |
+|---|---|
+| Horas economizadas para clientes | 2.000+ |
+| Retorno estimado em capital | R$ 560K |
+| Agentes em operação | 24/7 |
+
+Cases sempre com métrica no título e nome real do cliente — publicar com nome real é o nosso diferencial de prova.
+
+- **Financeiro** → Mina Ambiental
+- **Marketing** → IFLBH
+- **Comercial** → Jiló Marmitas
+- **Atendimento** → Hotéis Gontijo · Drica Divina
+
+---
+
+## Stack
+
+![Lovable](https://img.shields.io/badge/Lovable-080a0e?style=flat-square&labelColor=db5e4d&logoColor=080a0e)
+![Cursor](https://img.shields.io/badge/Cursor-080a0e?style=flat-square&labelColor=db5e4d&logoColor=080a0e)
+![Claude Code](https://img.shields.io/badge/Claude_Code-080a0e?style=flat-square&labelColor=db5e4d&logoColor=080a0e)
+![Supabase](https://img.shields.io/badge/Supabase-080a0e?style=flat-square&labelColor=db5e4d&logoColor=080a0e)
+![n8n](https://img.shields.io/badge/n8n-080a0e?style=flat-square&labelColor=db5e4d&logoColor=080a0e)
+![WhatsApp Business API](https://img.shields.io/badge/WhatsApp_Business_API-080a0e?style=flat-square&labelColor=db5e4d&logoColor=080a0e)
+![ElevenLabs](https://img.shields.io/badge/ElevenLabs-080a0e?style=flat-square&labelColor=db5e4d&logoColor=080a0e)
+![Claude API](https://img.shields.io/badge/Claude_API-080a0e?style=flat-square&labelColor=db5e4d&logoColor=080a0e)
+![Gemini API](https://img.shields.io/badge/Gemini_API-080a0e?style=flat-square&labelColor=db5e4d&logoColor=080a0e)
+
+Construção: Lovable, Cursor e Claude Code · Backend e dados: Supabase · Automações e agentes: n8n · Integrações: WhatsApp Business API, ElevenLabs, Evolution API · IA generativa: Claude API e Gemini API · Gestão: Google Workspace, ClickUp e Meta Business Suite.
+
+---
+
+<div align="center">
+
+**FNW®**
+
+[about.fainow.ai](https://about.fainow.ai) · [fainowadm@gmail.com](mailto:fainowadm@gmail.com)
+
+</div>
+</content>
+</invoke>
